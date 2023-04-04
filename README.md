@@ -9,3 +9,8 @@ You need the following envs to connect to your Firebase project and the Ding API
 - `SA_FILE_PATH`: A path to your service account JSON file
 - `DING_API_KEY`: Your Ding API key
 - `DING_CUSTOMER_UUID`: Your Ding customer UUID
+
+## API
+The API exposes two routes:
+- `send_code`: triggers an authentication message delivery
+- `verify`: allows the frontend to send the entered code for verification and returns a Firebase JWT token
